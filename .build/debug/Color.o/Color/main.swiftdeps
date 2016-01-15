@@ -1,0 +1,453 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ColorComponentCode"
+- "ColorComponent"
+- "Color"
+- "Style"
+- "Background"
+- "+"
+provides-nominal:
+- "P5Color14ColorComponent"
+- "O5Color5Color"
+- "O5Color5Style"
+- "O5Color10Background"
+provides-member:
+- ["P5Color14ColorComponent", ""]
+- ["O5Color5Color", ""]
+- ["O5Color5Style", ""]
+- ["O5Color10Background", ""]
+- ["Si", ""]
+- ["SS", ""]
+- ["Si", "wrap"]
+- ["SS", "addColor"]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- "UnicodeScalarType"
+- "ColorComponentCode"
+- "Int"
+- !private "codeOpen"
+- !private "codeClose"
+- "Color"
+- "ColorComponent"
+- "Background"
+- "Style"
+- "=="
+- "StringLiteralType"
+- !private "~="
+- "+"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- ["O5Color10Background", "ColorComponentCode"]
+- ["O5Color10Background", "RawValue"]
+- ["O5Color10Background", "String"]
+- ["O5Color10Background", "bgBlack"]
+- ["O5Color10Background", "bgBlue"]
+- ["O5Color10Background", "bgCyan"]
+- ["O5Color10Background", "bgGreen"]
+- ["O5Color10Background", "bgMagenta"]
+- ["O5Color10Background", "bgRed"]
+- ["O5Color10Background", "bgWhite"]
+- ["O5Color10Background", "bgYellow"]
+- ["O5Color10Background", "code"]
+- ["O5Color10Background", "deinit"]
+- ["O5Color10Background", "description"]
+- ["O5Color10Background", "hashValue"]
+- ["O5Color10Background", "init"]
+- ["O5Color10Background", "rawValue"]
+- !private ["Ps22BidirectionalIndexType", "codeClose"]
+- !private ["Ps22BidirectionalIndexType", "codeOpen"]
+- !private ["Ps22BidirectionalIndexType", "hashValue"]
+- !private ["Ps22BidirectionalIndexType", "wrap"]
+- !private ["Ps21BitwiseOperationsType", "codeClose"]
+- !private ["Ps21BitwiseOperationsType", "codeOpen"]
+- !private ["Ps21BitwiseOperationsType", "hashValue"]
+- !private ["Ps21BitwiseOperationsType", "wrap"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "codeClose"]
+- !private ["Ps11CVarArgType", "codeOpen"]
+- !private ["Ps11CVarArgType", "hashValue"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "wrap"]
+- !private ["Vs9Character", "deinit"]
+- ["O5Color5Color", "ColorComponentCode"]
+- ["O5Color5Color", "RawValue"]
+- ["O5Color5Color", "String"]
+- ["O5Color5Color", "black"]
+- ["O5Color5Color", "blue"]
+- ["O5Color5Color", "code"]
+- ["O5Color5Color", "cyan"]
+- ["O5Color5Color", "deinit"]
+- ["O5Color5Color", "description"]
+- ["O5Color5Color", "green"]
+- ["O5Color5Color", "hashValue"]
+- ["O5Color5Color", "init"]
+- ["O5Color5Color", "magenta"]
+- ["O5Color5Color", "rawValue"]
+- ["O5Color5Color", "red"]
+- ["O5Color5Color", "white"]
+- ["O5Color5Color", "yellow"]
+- ["P5Color14ColorComponent", "ColorComponentCode"]
+- ["P5Color14ColorComponent", "RawValue"]
+- ["P5Color14ColorComponent", "String"]
+- ["P5Color14ColorComponent", "bgBlack"]
+- ["P5Color14ColorComponent", "bgBlue"]
+- ["P5Color14ColorComponent", "bgCyan"]
+- ["P5Color14ColorComponent", "bgGreen"]
+- ["P5Color14ColorComponent", "bgMagenta"]
+- ["P5Color14ColorComponent", "bgRed"]
+- ["P5Color14ColorComponent", "bgWhite"]
+- ["P5Color14ColorComponent", "bgYellow"]
+- ["P5Color14ColorComponent", "black"]
+- ["P5Color14ColorComponent", "blue"]
+- ["P5Color14ColorComponent", "bold"]
+- ["P5Color14ColorComponent", "code"]
+- ["P5Color14ColorComponent", "cyan"]
+- ["P5Color14ColorComponent", "description"]
+- ["P5Color14ColorComponent", "dim"]
+- ["P5Color14ColorComponent", "green"]
+- ["P5Color14ColorComponent", "hashValue"]
+- ["P5Color14ColorComponent", "hidden"]
+- ["P5Color14ColorComponent", "init"]
+- ["P5Color14ColorComponent", "inverse"]
+- ["P5Color14ColorComponent", "italic"]
+- ["P5Color14ColorComponent", "magenta"]
+- ["P5Color14ColorComponent", "rawValue"]
+- ["P5Color14ColorComponent", "red"]
+- ["P5Color14ColorComponent", "reset"]
+- ["P5Color14ColorComponent", "strikethrough"]
+- ["P5Color14ColorComponent", "underline"]
+- ["P5Color14ColorComponent", "white"]
+- ["P5Color14ColorComponent", "yellow"]
+- ["P5Color14ColorComponent", ""]
+- !private ["Ps10Comparable", "codeClose"]
+- !private ["Ps10Comparable", "codeOpen"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "wrap"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "codeClose"]
+- !private ["Ps23CustomStringConvertible", "codeOpen"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "wrap"]
+- !private ["Sd", "deinit"]
+- ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "bgBlack"]
+- ["Ps9Equatable", "bgBlue"]
+- ["Ps9Equatable", "bgCyan"]
+- ["Ps9Equatable", "bgGreen"]
+- ["Ps9Equatable", "bgMagenta"]
+- ["Ps9Equatable", "bgRed"]
+- ["Ps9Equatable", "bgWhite"]
+- ["Ps9Equatable", "bgYellow"]
+- ["Ps9Equatable", "black"]
+- ["Ps9Equatable", "blue"]
+- ["Ps9Equatable", "bold"]
+- ["Ps9Equatable", "code"]
+- !private ["Ps9Equatable", "codeClose"]
+- !private ["Ps9Equatable", "codeOpen"]
+- ["Ps9Equatable", "cyan"]
+- ["Ps9Equatable", "description"]
+- ["Ps9Equatable", "dim"]
+- ["Ps9Equatable", "green"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "hidden"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "inverse"]
+- ["Ps9Equatable", "italic"]
+- ["Ps9Equatable", "magenta"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "red"]
+- ["Ps9Equatable", "reset"]
+- ["Ps9Equatable", "strikethrough"]
+- ["Ps9Equatable", "underline"]
+- ["Ps9Equatable", "white"]
+- !private ["Ps9Equatable", "wrap"]
+- ["Ps9Equatable", "yellow"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps16ForwardIndexType", "codeClose"]
+- !private ["Ps16ForwardIndexType", "codeOpen"]
+- !private ["Ps16ForwardIndexType", "hashValue"]
+- !private ["Ps16ForwardIndexType", "wrap"]
+- ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "bgBlack"]
+- ["Ps8Hashable", "bgBlue"]
+- ["Ps8Hashable", "bgCyan"]
+- ["Ps8Hashable", "bgGreen"]
+- ["Ps8Hashable", "bgMagenta"]
+- ["Ps8Hashable", "bgRed"]
+- ["Ps8Hashable", "bgWhite"]
+- ["Ps8Hashable", "bgYellow"]
+- ["Ps8Hashable", "black"]
+- ["Ps8Hashable", "blue"]
+- ["Ps8Hashable", "bold"]
+- ["Ps8Hashable", "code"]
+- !private ["Ps8Hashable", "codeClose"]
+- !private ["Ps8Hashable", "codeOpen"]
+- ["Ps8Hashable", "cyan"]
+- ["Ps8Hashable", "description"]
+- ["Ps8Hashable", "dim"]
+- ["Ps8Hashable", "green"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "hidden"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "inverse"]
+- ["Ps8Hashable", "italic"]
+- ["Ps8Hashable", "magenta"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", "red"]
+- ["Ps8Hashable", "reset"]
+- ["Ps8Hashable", "strikethrough"]
+- ["Ps8Hashable", "underline"]
+- ["Ps8Hashable", "white"]
+- !private ["Ps8Hashable", "wrap"]
+- ["Ps8Hashable", "yellow"]
+- ["Ps8Hashable", ""]
+- ["Si", "String"]
+- !private ["Si", "codeClose"]
+- !private ["Si", "codeOpen"]
+- !private ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- ["Si", "wrap"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "codeClose"]
+- !private ["Ps21IntegerArithmeticType", "codeOpen"]
+- !private ["Ps21IntegerArithmeticType", "hashValue"]
+- !private ["Ps21IntegerArithmeticType", "wrap"]
+- !private ["Ps25IntegerLiteralConvertible", "codeClose"]
+- !private ["Ps25IntegerLiteralConvertible", "codeOpen"]
+- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "wrap"]
+- !private ["Ps11IntegerType", "codeClose"]
+- !private ["Ps11IntegerType", "codeOpen"]
+- !private ["Ps11IntegerType", "hashValue"]
+- !private ["Ps11IntegerType", "wrap"]
+- !private ["Ps14MirrorPathType", "codeClose"]
+- !private ["Ps14MirrorPathType", "codeOpen"]
+- !private ["Ps14MirrorPathType", "hashValue"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps14MirrorPathType", "wrap"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps21RandomAccessIndexType", "codeClose"]
+- !private ["Ps21RandomAccessIndexType", "codeOpen"]
+- !private ["Ps21RandomAccessIndexType", "hashValue"]
+- !private ["Ps21RandomAccessIndexType", "wrap"]
+- !private ["Vs5Range", "deinit"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "bgBlack"]
+- ["Ps16RawRepresentable", "bgBlue"]
+- ["Ps16RawRepresentable", "bgCyan"]
+- ["Ps16RawRepresentable", "bgGreen"]
+- ["Ps16RawRepresentable", "bgMagenta"]
+- ["Ps16RawRepresentable", "bgRed"]
+- ["Ps16RawRepresentable", "bgWhite"]
+- ["Ps16RawRepresentable", "bgYellow"]
+- ["Ps16RawRepresentable", "black"]
+- ["Ps16RawRepresentable", "blue"]
+- ["Ps16RawRepresentable", "code"]
+- ["Ps16RawRepresentable", "cyan"]
+- ["Ps16RawRepresentable", "description"]
+- ["Ps16RawRepresentable", "green"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "magenta"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", "red"]
+- ["Ps16RawRepresentable", "white"]
+- ["Ps16RawRepresentable", "yellow"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps17SignedIntegerType", "codeClose"]
+- !private ["Ps17SignedIntegerType", "codeOpen"]
+- !private ["Ps17SignedIntegerType", "hashValue"]
+- !private ["Ps17SignedIntegerType", "wrap"]
+- !private ["Ps16SignedNumberType", "codeClose"]
+- !private ["Ps16SignedNumberType", "codeOpen"]
+- !private ["Ps16SignedNumberType", "hashValue"]
+- !private ["Ps16SignedNumberType", "wrap"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Strideable", "codeClose"]
+- !private ["Ps10Strideable", "codeOpen"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps10Strideable", "wrap"]
+- ["SS", "ColorComponent"]
+- ["SS", "String"]
+- ["SS", "addColor"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- ["O5Color5Style", "ColorComponentCode"]
+- ["O5Color5Style", "String"]
+- ["O5Color5Style", "bold"]
+- ["O5Color5Style", "code"]
+- ["O5Color5Style", "deinit"]
+- ["O5Color5Style", "description"]
+- ["O5Color5Style", "dim"]
+- ["O5Color5Style", "hashValue"]
+- ["O5Color5Style", "hidden"]
+- ["O5Color5Style", "inverse"]
+- ["O5Color5Style", "italic"]
+- ["O5Color5Style", "reset"]
+- ["O5Color5Style", "strikethrough"]
+- ["O5Color5Style", "underline"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "codeClose"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "codeOpen"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "wrap"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps14_Incrementable", "codeClose"]
+- !private ["Ps14_Incrementable", "codeOpen"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps14_Incrementable", "wrap"]
+- !private ["Ps22_IntegerArithmeticType", "codeClose"]
+- !private ["Ps22_IntegerArithmeticType", "codeOpen"]
+- !private ["Ps22_IntegerArithmeticType", "hashValue"]
+- !private ["Ps22_IntegerArithmeticType", "wrap"]
+- !private ["Ps12_IntegerType", "codeClose"]
+- !private ["Ps12_IntegerType", "codeOpen"]
+- !private ["Ps12_IntegerType", "hashValue"]
+- !private ["Ps12_IntegerType", "wrap"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "codeClose"]
+- !private ["Ps21_ObjectiveCBridgeable", "codeOpen"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "wrap"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "codeClose"]
+- !private ["Ps22_RandomAccessAmbiguity", "codeOpen"]
+- !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
+- !private ["Ps22_RandomAccessAmbiguity", "wrap"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "codeClose"]
+- !private ["Ps12_Reflectable", "codeOpen"]
+- !private ["Ps12_Reflectable", "hashValue"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "wrap"]
+- !private ["Ps18_SignedIntegerType", "codeClose"]
+- !private ["Ps18_SignedIntegerType", "codeOpen"]
+- !private ["Ps18_SignedIntegerType", "hashValue"]
+- !private ["Ps18_SignedIntegerType", "wrap"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "O5Color10Background"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "Ps11CVarArgType"
+- !private "Vs9Character"
+- "O5Color5Color"
+- "P5Color14ColorComponent"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Vs5Range"
+- "Ps16RawRepresentable"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- "O5Color5Style"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/LibcShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/RefCount.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/HeapObject.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/shims/module.map"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-11-a.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+interface-hash: "6a5c826b642cea23eb3b6996ca17a26f"

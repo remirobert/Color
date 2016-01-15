@@ -11,15 +11,15 @@ import Foundation
 private let codeOpen = "\u{001B}[0;"
 private let codeClose = "m"
 
-typealias ColorComponentCode = Int
+public typealias ColorComponentCode = Int
 
-protocol ColorComponent {
+public protocol ColorComponent {
     var description: String {get}
     var code: ColorComponentCode {get}
 }
 
-enum Color: String, ColorComponent {
-
+public enum Color: String, ColorComponent {
+    
     case black
     case red
     case green
@@ -28,8 +28,8 @@ enum Color: String, ColorComponent {
     case magenta
     case cyan
     case white
-
-    var code: ColorComponentCode {
+    
+    public var code: ColorComponentCode {
         switch self {
         case black: return 30
         case red: return 31
@@ -41,8 +41,8 @@ enum Color: String, ColorComponent {
         case white: return 37
         }
     }
-
-    var description: String {
+    
+    public var description: String {
         switch self {
         case .black: return "black"
         case .red: return "red"
@@ -56,8 +56,8 @@ enum Color: String, ColorComponent {
     }
 }
 
-enum Style: ColorComponent {
-
+public enum Style: ColorComponent {
+    
     case reset
     case bold
     case dim
@@ -66,8 +66,8 @@ enum Style: ColorComponent {
     case inverse
     case hidden
     case strikethrough
-
-    var code: ColorComponentCode {
+    
+    public var code: ColorComponentCode {
         switch self {
         case reset: return 0
         case bold: return 1
@@ -79,8 +79,8 @@ enum Style: ColorComponent {
         case strikethrough: return 9
         }
     }
-
-    var description: String {
+    
+    public var description: String {
         switch self {
         case .reset: return "reset"
         case .bold: return "bold"
@@ -94,8 +94,8 @@ enum Style: ColorComponent {
     }
 }
 
-enum Background: String, ColorComponent {
-
+public enum Background: String, ColorComponent {
+    
     case bgBlack
     case bgRed
     case bgGreen
@@ -104,8 +104,8 @@ enum Background: String, ColorComponent {
     case bgMagenta
     case bgCyan
     case bgWhite
-
-    var code: ColorComponentCode {
+    
+    public var code: ColorComponentCode {
         switch self {
         case bgBlack: return 40
         case bgRed: return 41
@@ -117,8 +117,8 @@ enum Background: String, ColorComponent {
         case bgWhite: return 47
         }
     }
-
-    var description: String {
+    
+    public var description: String {
         switch self {
         case .bgBlack: return "bgBlack"
         case .bgRed: return "bgRed"
@@ -132,18 +132,18 @@ enum Background: String, ColorComponent {
     }
 }
 
-extension ColorComponentCode {
+public extension ColorComponentCode {
     func wrap() -> String {
         return "\(codeOpen)\(self)\(codeClose)"
     }
 }
 
-extension String {
+public extension String {
     func addColor(colorComponent: ColorComponent) -> String {
         return self + colorComponent.code.wrap()
     }
 }
 
-func + (let left: String, let right: ColorComponent) -> String {
+public func + (let left: String, let right: ColorComponent) -> String {
     return left + right.code.wrap()
 }

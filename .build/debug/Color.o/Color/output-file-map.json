@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/remirobert/Documents/Swift/Color/.build/debug/Color.o/Color/master.swiftdeps"
+  },
+  "/Users/remirobert/Documents/Swift/Color/Sources/main.swift": {
+    "dependencies": "/Users/remirobert/Documents/Swift/Color/.build/debug/Color.o/Color/main.d",
+    "object": "/Users/remirobert/Documents/Swift/Color/.build/debug/Color.o/Sources/main.swift.o",
+    "swiftmodule": "/Users/remirobert/Documents/Swift/Color/.build/debug/Color.o/Color/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/remirobert/Documents/Swift/Color/.build/debug/Color.o/Color/main.swiftdeps"
+  }
+}
