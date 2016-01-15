@@ -1,5 +1,0 @@
-version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 42591f7cba)"
-options: "c9969207fcebf3420fa6bdaf0a1f75ff"
-build_time: [506154450, 496536000]
-inputs:
-  "/Users/remirobert/Documents/Swift/Color/Sources/main.swift": [506154443, 0]
